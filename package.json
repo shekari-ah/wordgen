@@ -1,0 +1,25 @@
+{
+  "name": "wordgen",
+  "version": "1.0.0",
+  "description": "a word generator base on the phonological rules",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "example": "tsc && cd example && npm install && node index.js",
+    "test": "tsc && node example/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HermesType/Wordgen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HermesType/Wordgen/issues"
+  },
+  "homepage": "https://github.com/HermesType/Wordgen#readme"
+}
